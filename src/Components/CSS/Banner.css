@@ -1,0 +1,125 @@
+.banner {
+    object-fit: contain;
+    height: 448px;
+}
+
+.banner_containts {
+    padding-top: 140px;
+    height: 190px;
+
+}
+
+.banner_tittle {
+    font-size: 3em;
+    padding-bottom: 0.3rem;
+}
+
+.banner_Descriptions {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 80px;
+}
+
+.banner_btn {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5em;
+    background-color: rgba(51, 51, 51, 0.5);
+
+}
+
+.banner_btn:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
+.banner_faded {
+    padding-top: 258px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+}
+
+/* .banner_static {
+    display: flex;
+    width: 150px;
+    margin-left: 800px;
+}
+
+.year {
+    color: rgb(29, 233, 29);
+}
+
+.ranking {
+    color: yellow;
+    cursor: default;
+}
+
+.language {
+    text-transform: uppercase;
+}
+
+.search {
+    cursor: pointer;
+} */
+
+@media(max-width:399px) {
+    .banner_tittle {
+        font-size: 3em;
+        padding-bottom: 0.3rem;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .banner_Descriptions {
+        display: none;
+
+    }
+
+    .banner_btn {
+        cursor: pointer;
+        color: #fff;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 0.2vh;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-right: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5em;
+        background-color: rgb(77, 73, 73);
+    }
+}
+
+/* @media (max-width: 576px) {
+    .search {
+        display: none;
+
+        margin: 0;
+        padding: 0;
+        width: 10px;
+    }
+
+    .banner {
+        margin: 0px;
+
+        margin-left: 0px;
+        background-position: center center;
+        height: 450px;
+    }
+
+    .banner_Description {
+        width: 200px;
+        font-size: 12px;
+    }
+} */
